@@ -1,0 +1,63 @@
+@use "presets" as *;
+@use "mixins" as *;
+
+.navbar-inverse {
+  background-color: $color-deep-dark;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  transition: background-color 0.5s;
+  @include sm-min {
+    border-radius: 4px;
+  }
+  @include sm {
+    text-align: center;
+  }
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: $color-primary-dark;
+}
+
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: $color-primary-light;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: $color-primary;
+}
+
+.navbar-right {
+  @include sm {
+    margin-top: 0;
+  }
+}
+
+.navbar-right > li {
+  @include sm-min {
+    margin: 5px 0px 5px 5px;
+  }
+}
+
+.navbar-left {
+  @include sm {
+    margin-bottom: 0;
+  }
+}
+
+.navbar-left > li {
+  @include sm-min {
+    margin: 5px 5px 5px 0;
+  }
+}
+
+.navbar-header {
+  text-align: center;
+}
+.navbar-toggle {
+  float: none;
+  margin-right: 0;
+}
