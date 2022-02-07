@@ -87,3 +87,14 @@
   border: 1px solid $color-gray;
   border-radius: 0 0 4px 4px;
 }
+
+.panel-info {
+  > .panel-heading {
+    letter-spacing: 0.1em;
+  }
+}
+
+.input-lg,
+.input-group-lg > .form-control {
+  font-size: 0.875rem;
+}
