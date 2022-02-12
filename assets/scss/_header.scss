@@ -18,7 +18,7 @@
     color: $color-accent;
     font-family: $font-header;
     letter-spacing: 0.33em;
-    padding-left: 0.33em;
+    // padding-left: 0.33em; - изменено под pixel perfect
     @extend %text-shadow;
     @include xs-min {
       font-size: 3.5rem;
