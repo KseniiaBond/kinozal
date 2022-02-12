@@ -14,13 +14,13 @@
 .top-week {
   &-row {
     margin-right: -$gap-sm;
-    margin-left: -$gap-sm;
     margin-bottom: -$gap;
+    margin-left: -$gap-sm;
   }
   &-item {
-    padding-left: $gap-sm;
-    padding-right: $gap-sm;
     margin-bottom: $gap;
+    padding-right: $gap-sm;
+    padding-left: $gap-sm;
     &__thumbnail {
       margin-bottom: 0;
     }
@@ -29,6 +29,7 @@
 
       font-size: 1rem;
       font-weight: bold;
+
       @include text-shortener;
     }
     &__image {

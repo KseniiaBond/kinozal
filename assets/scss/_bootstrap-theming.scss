@@ -2,13 +2,15 @@
 @use "mixins" as *;
 
 .navbar-inverse {
-  background-color: $color-deep-dark;
-  border-color: transparent;
   margin-bottom: 0;
+
+  border-color: transparent;
+  background-color: $color-deep-dark;
 
   .navbar-nav {
     li > a {
       transition: background-color 0.5s;
+
       @include sm-min {
         border-radius: 4px;
       }
@@ -35,10 +37,9 @@
   @include sm {
     margin-top: 0;
   }
-
   @include sm-min {
     > li {
-      margin: 5px 0px 5px 5px;
+      margin: 5px 0 5px 5px;
     }
   }
 }
@@ -59,25 +60,29 @@
 }
 .navbar-toggle {
   float: none;
+
   margin-right: 0;
 }
 
 .panel-info {
   border: none;
-  box-shadow: none;
   background-color: $color-gray-light;
+  box-shadow: none;
 
   &:not(&:last-of-type) {
     margin-bottom: $gap * 2;
   }
 
   > .panel-heading {
-    color: $color-white;
-    background-color: $color-accent;
-    border: none;
-    font-size: 1.25rem;
-    letter-spacing: 0.08em;
     padding: 5px 15px;
+
+    letter-spacing: 0.08em;
+
+    color: $color-white;
+    border: none;
+    background-color: $color-accent;
+
+    font-size: 1.25rem;
     // padding - изменено под pixel perfect
   }
 }
