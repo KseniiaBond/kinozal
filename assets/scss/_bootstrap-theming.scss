@@ -65,18 +65,21 @@
 }
 
 .panel-info {
+  margin-bottom: $gap * 2;
+
   border: none;
   background-color: $color-gray-light;
   box-shadow: none;
 
-  &:not(&:last-of-type) {
-    margin-bottom: $gap * 2;
+  &:last-of-type {
+    margin-bottom: 0;
   }
 
   > .panel-heading {
     padding: 5px 15px;
 
     letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
 
     color: $color-white;
     border: none;
@@ -89,12 +92,6 @@
 .panel-body {
   border: 1px solid $color-gray;
   border-radius: 0 0 4px 4px;
-}
-
-.panel-info {
-  > .panel-heading {
-    letter-spacing: 0.1em;
-  }
 }
 
 .input-lg,

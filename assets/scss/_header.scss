@@ -27,6 +27,8 @@
 
     @extend %text-shadow;
     @include xs-min {
+      padding-left: 0.33em;
+
       font-size: 3.5rem;
     }
     @include xs {

@@ -47,17 +47,17 @@
 
           <div class="collapse navbar-collapse" id="navbar-top">
             <ul class="nav navbar-nav navbar-left">
-              <li class="active"><a href="#">Главная</a>
+              <li class="active"><a href="index.html">Главная</a>
               </li>
-              <li><a href="#">Фильмы</a></li>
-              <li><a href="#">Сериалы</a></li>
-              <li><a href="#">Контакты</a></li>
+              <li><a href="page.html">Фильмы</a></li>
+              <li><a href="index.html">Сериалы</a></li>
+              <li><a href="index.html">Контакты</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Новинки</a></li>
-              <li><a href="#">Рейтинг</a></li>
-              <li><a href="#">Раздачи</a></li>
+              <li><a href="index.html">Новинки</a></li>
+              <li><a href="index.html">Рейтинг</a></li>
+              <li><a href="index.html">Раздачи</a></li>
             </ul>
           </div>
 
@@ -90,48 +90,41 @@
         <section class="user-login panel panel-info visible-sm visible-xs">
           <div class="panel-heading">Пользователь</div>
           <div class="panel-body">
-
-            <div>
-              <ul class="user-login__tabs nav nav-tabs" role="tablist">
-                <li role="presentation" class="active">
-                  <a href="#user-login-main" aria-controls="user-login-main" role="tab" data-toggle="tab">
-                    <span class="glyphicon glyphicon-log-in"></span></a>
-                </li>
-                <li role="presentation">
-                  <a href="#user-registration-main" aria-controls="user-registration-main" role="tab"
-                    data-toggle="tab"><span class="glyphicon glyphicon-user"></span></a>
-                </li>
-              </ul>
-
-              <div class="user-login__content tab-content">
-
-                <div role="tabpanel" class="tab-pane fade-in active" id="user-login-main">
-                  <form action="login.php">
-                    <div class="form-group">
-                      <input class="form-control input-lg" type="text" placeholder="Логин">
-                    </div>
-                    <div class="form-group">
-                      <input class="form-control input-lg" type="text" placeholder="Пароль">
-                    </div>
-                    <button class="btn btn-default btn-lg btn-block" type="submit">Вход</button>
-                  </form>
-                </div>
-
-                <div role="tabpanel" class="tab-pane fade" id="user-registration-main">
-                  <form action="login.php">
-                    <div class="form-group">
-                      <input class="form-control input-lg" type="text" placeholder="Логин">
-                    </div>
-                    <div class="form-group">
-                      <input class="form-control input-lg" type="text" placeholder="Пароль">
-                    </div>
-                    <div class="form-group">
-                      <input class="form-control input-lg" type="email" placeholder="Email">
-                    </div>
-                    <button class="btn btn-default btn-lg btn-block" type="submit">Регистрация</button>
-                  </form>
-                </div>
-
+            <ul class="user-login__tabs nav nav-tabs" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#user-login-main" aria-controls="user-login-main" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-log-in"></span></a>
+              </li>
+              <li role="presentation">
+                <a href="#user-registration-main" aria-controls="user-registration-main" role="tab"
+                  data-toggle="tab"><span class="glyphicon glyphicon-user"></span></a>
+              </li>
+            </ul>
+            <div class="user-login__content tab-content">
+              <div role="tabpanel" class="tab-pane fade-in active" id="user-login-main">
+                <form action="login.php">
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Логин">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Пароль">
+                  </div>
+                  <button class="btn btn-default btn-lg btn-block" type="submit">Вход</button>
+                </form>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="user-registration-main">
+                <form action="login.php">
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Логин">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Пароль">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="email" placeholder="Email">
+                  </div>
+                  <button class="btn btn-default btn-lg btn-block" type="submit">Регистрация</button>
+                </form>
               </div>
             </div>
           </div>
@@ -717,8 +710,7 @@
             <div class="footer-bottom">
 
               <div class="footer-signature col-xs-12">
-                <strong><a href="#">Учебный шаблон Bootstrap v3.4.1. Разработка - Андрей
-                    Фоменко</a></strong>
+                <strong><a href="#">Учебный шаблон Bootstrap v3.4.1. Разработка - Ксения Бондарчук</a></strong>
               </div>
 
             </div>
